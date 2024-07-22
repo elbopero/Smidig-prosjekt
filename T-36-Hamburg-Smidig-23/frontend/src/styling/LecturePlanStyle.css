@@ -1,0 +1,86 @@
+body{
+    background-color: #f5f5f5;
+    padding: 0;
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.plan {
+    background-color: #f5f5f5;
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+}
+
+.headerContainer{
+    margin-top:0;
+}
+
+.lectureImage {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 2%;
+}
+
+  .lectureImage img {
+    max-width: 100%;
+    max-height: 100%;
+    object-fit: contain;
+  }
+
+.content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.learningOutcome-Component{
+    width: 40%;
+    padding: 2rem;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.146);
+    background-color: #FCF0D9;
+    border-radius: 1em;
+    padding: 1em 2em 1em 2em;
+    margin-bottom: 5%;
+}
+
+.recipeComponent{
+    width: 40%;
+    padding: 2rem;
+    box-shadow: 0 5px 9px rgba(0, 0, 0, 0.146);
+    background-color: #FCF0D9;
+    border-radius: 1em;
+    padding: 1em 2em 1em 2em;
+    margin-bottom: 5%;
+}
+
+.week-plan {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 8%;
+    font-weight: bold;
+    color: #FD7752;
+    border-width: 1px;
+    font-family: sans-serif;
+    background-color: #f5f5f5;
+}
+
+
+.learningoutcometitle {
+    font-weight: bold;
+    margin-bottom: 2em;
+    color: #FD7752;
+    text-align: center;
+}
+.titleIngredients{
+    margin-bottom: 15px;
+    font-weight: bold;
+    color: #FD7752;
+}

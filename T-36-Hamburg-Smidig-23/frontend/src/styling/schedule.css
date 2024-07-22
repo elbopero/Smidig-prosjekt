@@ -1,0 +1,21 @@
+.gridContainer{
+    width: 75%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 2rem;
+    margin-left: 2em;
+}
+
+.sidebarContainer{
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    height: 81%;
+    width: 20%;
+    padding-top: 6%;
+}
+
+.semester-plan-title{
+    margin-top: 1.5em;
+    margin-left: 0.5em;
+}
